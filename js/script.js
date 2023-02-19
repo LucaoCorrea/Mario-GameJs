@@ -41,3 +41,4 @@ function reiniciar(){
 
 
 document.addEventListener("keydown", jump);
+document.addEventListener("click", jump);

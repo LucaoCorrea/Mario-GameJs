@@ -38,12 +38,21 @@
 }
 
 .f5{
-    float: center;
     text-align: center;
     background-color: black;
     color: white;
+    margin: 300px;
+    left: 250px;
+    position: absolute;
+    padding: 10px;
     font-size: 20px;
+    width: auto;
+    animation: f5 1.5s infinite linear;
 }
+
+.f5 h1{
+    cursor: pointer;
+ }
 
 
 @keyframes pipe-animation {
@@ -82,5 +91,18 @@
 
     to{
         right: 100%;
+    }
+}
+
+@keyframes f5{
+    0%{
+        background-color: black;
+        color: white;
+    }
+    50%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
     }
 }
